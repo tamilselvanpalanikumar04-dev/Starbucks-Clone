@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+hr{
+    border-style: groove;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.container{
+    width: 550px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 500px;
+}
+
+.container form p{
+    padding: 40px;
+    font-size: medium;
+}
+
+.username{
+    margin-left: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    color: black;
+}
+
+.password{
+    margin-left: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+form .a{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+form .a,a{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.btn{
+    width: 90px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-top: 40px;
+    background-color: rgb(9, 110, 63);
+    border: 0px solid transparent;
+    box-shadow: 0 0 20px rgb(199, 199, 199);
+}
+
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.paragraph{
+    margin-top: 80px;
+    margin-left: 600px;
+}
+   
+.paragraph h3{
+    color: darkgreen;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.btn2{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 720px;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.btn2:hover{
+    background-color: darkgreen;
+    transition: 0.8 ease;
+}
+
+.btn2 a:hover{
+    color: #ffffff;
+    transition: 0.3 ease;
+}
+
+.btn2 a{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.column{
+    display: flex;
+}
+
+
+.column .column1 .s1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.column .column1 .subcolumn1 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.column .column2 .s2{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.column .column2 .subcolumn2 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.column .column3 .s3{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.column .column3 .subcolumn3 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.column .column4 .s4{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.column .column4 .subcolumn4 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.column .column5 .s5{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.column .column5 .subcolumn5 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icon1{
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.icon2{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon3{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon4{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon5{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon6{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer ul{
+    list-style: none;
+    margin-left: 45px;
+}
+
+.footer ul li{
+    margin-top: 20px;
+}
+
+.fp p{
+    color: grey;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
