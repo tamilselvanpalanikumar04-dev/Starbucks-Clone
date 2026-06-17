@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100vh;
-    background-color:white;
+    background-color: white;
 }
 
-.navbar{
+.navbar {
     height: 100px;
     width: 100%;
     background-color: white;
     display: flex;
 }
 
-.nav1{
+.nav1 {
     width: 50%;
     height: 100px;
     display: flex;
 }
 
-.nav1 img{
+.nav1 img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -32,64 +32,64 @@
     margin-top: 10px;
 }
 
-.menu-bar{
+.menu-bar {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
 }
 
-.menu-bar nav ul{
+.menu-bar nav ul {
     display: flex;
 }
 
-.menu-bar nav ul li{
+.menu-bar nav ul li {
     margin-right: 25px;
     list-style: none;
 }
 
-.menu-bar nav ul li a{
+.menu-bar nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.nav2{
+.nav2 {
     width: 50%;
     height: 100px;
     display: flex;
 
 }
 
-.nav2 .find{
+.nav2 .find {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 380px;
 }
 
-.nav2 .find a{
+.nav2 .find a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-left: 50px;
 }
 
-.btn a{
+.btn a {
     margin-right: 15px;
     padding: 5px;
     border-radius: 20px;
 }
 
-.sign-in{
+.sign-in {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bold;
     border: 1px solid;
     border-radius: 20px;
@@ -98,24 +98,23 @@
     width: 80px;
 }
 
-.join-now{
-     text-decoration: none;
-    color:black;
+.join-now {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
     border: 1px solid;
     border-radius: 20px;
     text-align: center;
     height: 35px;
-    width: 80px;    
+    width: 100px;
+    background-color: black;
 }
 
-
-
-hr{
+hr {
     border-style: groove;
 }
 
-.box{
+.box {
     width: 95%;
     height: 110px;
     background-color: rgb(39, 81, 2);
@@ -126,24 +125,24 @@ hr{
 
 }
 
-.box p{
+.box p {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     font-size: 20px;
     font-weight: bold;
     color: white;
     margin-right: 20px;
 }
 
-.box button{
+.box button {
     display: flex;
     border-radius: 20px;
     border-color: white;
     background-color: transparent;
 }
 
-.box button a{
+.box button a {
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -153,18 +152,18 @@ hr{
     color: white;
 }
 
-.part1{
+.part1 {
     display: flex;
 }
 
-.part1 img{
+.part1 img {
     width: 50%;
     height: 410px;
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.part1 .para{
+.part1 .para {
     width: 50%;
     height: 410px;
     margin-right: 38px;
@@ -172,13 +171,15 @@ hr{
     background-color: #006342;
     color: white;
 }
-.para h3{
+
+.para h3 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     margin-top: 60px;
 }
-.para pre{
+
+.para pre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,25 +187,25 @@ hr{
     margin-top: 30px;
 }
 
-.para button{
+.para button {
     border-radius: 20px;
     padding: 10px;
     margin-top: 30px;
     margin-left: 300px;
 }
 
-.para button a{
+.para button a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     color: darkgreen;
 }
 
-.part2{
+.part2 {
     display: flex;
 }
 
-.part2 .para2{
+.part2 .para2 {
     width: 50%;
     height: 410px;
     margin-left: 40px;
@@ -212,7 +213,7 @@ hr{
     background-color: #006342;
 }
 
-.para2 h3{
+.para2 h3 {
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -220,7 +221,7 @@ hr{
     color: white;
 }
 
-.para2 pre{
+.para2 pre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +230,7 @@ hr{
     color: white;
 }
 
-.para2 button{
+.para2 button {
     border-radius: 20px;
     padding: 10px;
     margin-left: 300px;
@@ -237,31 +238,31 @@ hr{
     background-color: transparent;
 }
 
-.para2 button a{
+.para2 button a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
- 
-.part2 img{
+
+.part2 img {
     width: 50%;
     height: 410px;
     margin-right: 38px;
     margin-top: 40px;
 }
 
-.part3{
+.part3 {
     display: flex;
 }
 
-.part3 img{
+.part3 img {
     width: 47%;
     height: 310px;
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.part3 .para3{
+.part3 .para3 {
     width: 53%;
     height: 310px;
     margin-right: 38px;
@@ -269,13 +270,15 @@ hr{
     background-color: #006342;
     color: white;
 }
-.para3 h3{
+
+.para3 h3 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     margin-top: 60px;
 }
-.para3 pre{
+
+.para3 pre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,7 +286,7 @@ hr{
     margin-top: 30px;
 }
 
-.para3 button{
+.para3 button {
     border-radius: 20px;
     padding: 10px;
     margin-top: 30px;
@@ -291,17 +294,17 @@ hr{
     background-color: transparent;
 }
 
-.para3 button a{
+.para3 button a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.part4{
+.part4 {
     display: flex;
 }
 
-.part4 .para4{
+.part4 .para4 {
     width: 57%;
     height: 310px;
     margin-left: 40px;
@@ -309,7 +312,7 @@ hr{
     background-color: rgb(243, 236, 224);
 }
 
-.para4 h3{
+.para4 h3 {
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -317,7 +320,7 @@ hr{
     color: black;
 }
 
-.para4 pre{
+.para4 pre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +329,7 @@ hr{
     color: black;
 }
 
-.para4 button{
+.para4 button {
     border-radius: 20px;
     padding: 10px;
     margin-left: 300px;
@@ -334,24 +337,24 @@ hr{
     background-color: transparent;
 }
 
-.para4 button a{
+.para4 button a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
- 
-.part4 img{
+
+.part4 img {
     width: 48%;
     height: 310px;
     margin-right: 38px;
     margin-top: 40px;
 }
 
-.part5{
+.part5 {
     display: flex;
 }
 
-.part5 .image{
+.part5 .image {
     width: 50%;
     height: 280px;
     margin-left: 38px;
@@ -359,7 +362,7 @@ hr{
     background-color: #006342;
 }
 
-.para5{
+.para5 {
     width: 50%;
     height: 280px;
     margin-right: 38px;
@@ -367,7 +370,7 @@ hr{
     background-color: #006342;
 }
 
-.part5 .para5 pre{
+.part5 .para5 pre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,25 +379,25 @@ hr{
     margin-top: 100px;
 }
 
-.para6 .p1{
+.para6 .p1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
 
-.para6 .p2{
+.para6 .p2 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 20px;
 }
 
-.column{
+.column {
     display: flex;
 }
 
-.column .column1 .s1{
+.column .column1 .s1 {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -405,7 +408,7 @@ hr{
     margin-top: 10px;
 }
 
-.column .column1 .subcolumn1 a{
+.column .column1 .subcolumn1 a {
     text-decoration: none;
     color: grey;
     font-size: 15px;
@@ -415,7 +418,7 @@ hr{
     margin-left: 10px;
 }
 
-.column .column2 .s2{
+.column .column2 .s2 {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -426,7 +429,7 @@ hr{
     margin-top: 10px;
 }
 
-.column .column2 .subcolumn2 a{
+.column .column2 .subcolumn2 a {
     text-decoration: none;
     color: grey;
     font-size: 15px;
@@ -436,7 +439,7 @@ hr{
     margin-left: 10px;
 }
 
-.column .column3 .s3{
+.column .column3 .s3 {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -447,7 +450,7 @@ hr{
     margin-top: 10px;
 }
 
-.column .column3 .subcolumn3 a{
+.column .column3 .subcolumn3 a {
     text-decoration: none;
     color: grey;
     font-size: 15px;
@@ -457,7 +460,7 @@ hr{
     margin-left: 10px;
 }
 
-.column .column4 .s4{
+.column .column4 .s4 {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -468,28 +471,7 @@ hr{
     margin-top: 10px;
 }
 
-.column .column4 .subcolumn4 a{
-    text-decoration: none;
-    color: grey;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    margin-left: 15px;
-}
-
-.column .column5 .s5{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.column .column5 .subcolumn5 a{
+.column .column4 .subcolumn4 a {
     text-decoration: none;
     color: grey;
     font-size: 15px;
@@ -499,57 +481,78 @@ hr{
     margin-left: 15px;
 }
 
-.icons{
+.column .column5 .s5 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column .column5 .subcolumn5 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.icons {
     display: flex;
 }
 
-.icon1{
+.icon1 {
     margin-top: 40px;
     margin-left: 20px;
 }
 
-.icon2{
+.icon2 {
     margin-top: 40px;
     margin-left: 20px;
 }
 
-.icon3{
+.icon3 {
     margin-top: 40px;
     margin-left: 20px;
 }
 
-.icon4{
+.icon4 {
     margin-top: 40px;
     margin-left: 20px;
 }
 
-.icon5{
+.icon5 {
     margin-top: 40px;
     margin-left: 20px;
 }
 
-.icon6{
+.icon6 {
     margin-top: 40px;
     margin-left: 20px;
 }
 
-.footer ul li a{
+.footer ul li a {
     text-decoration: none;
     color: black;
     font-size: 15px;
     font-weight: 500;
 }
 
-.footer ul{
+.footer ul {
     list-style: none;
     margin-left: 20px;
 }
 
-.footer ul li{
+.footer ul li {
     margin-top: 20px;
 }
 
-.fp{
+.fp {
     margin-top: 20px;
     margin-left: 20px;
     padding-bottom: 20px;
