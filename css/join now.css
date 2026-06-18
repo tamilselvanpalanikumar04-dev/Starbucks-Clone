@@ -46,23 +46,23 @@ hr {
 }
 
 .container {
-    height: 1000px;
-    width: 600px;
-    border: 1px solid;
+    height: 980px;
+    width: 550px;
+    border: 0px solid;
     border-radius: 15px;
     box-shadow: 0 0 20px rgb(199, 199, 199);
-    margin-left: 462px;
-    margin-top: 45px;
+    margin-left: 480px;
+    margin-top: 35px;
 }
 
 .container .top {
-    margin-left: 60px;
-    margin-top: 60px;
+    margin-left: 80px;
     font-size: 17px;
+    padding-top: 40px;
 }
 
 .container .personal {
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 25px;
 }
 
@@ -83,7 +83,7 @@ hr {
 }
 
 .container .security {
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 25px;
 }
 
@@ -104,26 +104,235 @@ hr {
     font-size: 15px;
 }
 
-.security .sec-para{
+.security .sec-para {
     margin-top: 10px;
     margin-left: 15px;
 }
 
-.already{
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: darkgreen;
-    margin-left: 60px;
-}
-
-.collect p{
-    margin-left: 60px;
-    margin-top: 25px;
-}
-
-
-.collect .check{
-    margin-left: 60px;
+.already {
     margin-top: 20px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.already a {
+    color: darkgreen;
+}
+
+.coll {
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    font-weight: bold;
+    color: grey;
+}
+
+.coll-p1 {
+    margin-left: 80px;
+}
+
+.check {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 18px;
+}
+
+.coll-p2 {
+    margin-left: 90px;
+}
+
+.term-p1 {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 18px;
+}
+
+.inp {
+    margin-left: 80px;
+}
+
+.create-btn{
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: darkgreen;
+    border: 0px solid;
+    box-shadow: 0 0 18px grey;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+hr{
+    margin-top: 40px;
+}
+
+.column {
+    display: flex;
+}
+
+.column .column1 .s1 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column .column1 .subcolumn1 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.column .column2 .s2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column .column2 .subcolumn2 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.column .column3 .s3 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column .column3 .subcolumn3 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.column .column4 .s4 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column .column4 .subcolumn4 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.column .column5 .s5 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column .column5 .subcolumn5 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon1 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon3 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon4 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon5 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon6 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.footer ul li {
+    margin-top: 20px;
+}
+
+.fp {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
 }
